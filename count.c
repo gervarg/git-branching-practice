@@ -13,5 +13,6 @@ int main()
 
 void count(int age, int year){
     printf("My age is %d.\n", age);
+	printf("Counting the countless paramete");
     printf("I was born in %d", year);
 }

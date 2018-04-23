@@ -8,7 +8,7 @@ int main()
     cheer(team_name, langue);
     return 0;
 }
-void cheer(char* team_name ){
+void cheer(char* team_name, char* langue){
  printf("Hello %s!\n",langue);
  printf("Chosen language is: %s!\n",team_name);
 }
