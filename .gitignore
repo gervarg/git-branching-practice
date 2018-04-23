@@ -11,3 +11,6 @@ bin/
 obj/
 *.layout
 *.cbp
+*.exe
+*.o
+
