@@ -14,3 +14,4 @@ void greet(void)
 {
     printf("Hello Gergely!");
 }
+
