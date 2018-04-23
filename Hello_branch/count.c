@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
-void count(void);
+
+void greet(void);
 
 int main()
 {
-    printf("Hello world!\n");
-    count();
+    printf("Hello branch!\n");
+    greet(void);
     return 0;
 }
 
-void count(void){
-    printf("My age is 25.\n");
+void greet(void)
+{
+    printf("Hello Gergely!");
 }
+
