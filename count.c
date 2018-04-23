@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-void count(void);
+void count(int);
 
 int main()
 {
     printf("Hello world!\n");
-    count();
+    int age 25;
+    count(age);
     return 0;
 }
 
-void count(void){
-    printf("My age is 25.\n");
+void count(int age){
+    printf("My age is %d.\n", age);
 }
