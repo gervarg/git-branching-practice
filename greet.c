@@ -13,6 +13,6 @@ int main()
 
 void greet(char* name)
 {
-    printf("Greetings tesa %s!\n", name);
+    printf("Greetings tesa mester %s!\n", name);
 }
 
