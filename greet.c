@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void greet(void);
+void greet(char*);
 
 int main()
 {
+    char *name = "Gergely";
     printf("Hello branch!\n");
-    greet(void);
+    greet(name);
     return 0;
 }
 
-void greet(void)
+void greet(char* name)
 {
-    printf("Hello Gergely!");
+    printf("Hello %s!\n", name);
 }
 
