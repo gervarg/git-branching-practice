@@ -14,6 +14,6 @@ int main()
 
 void greet(char* name, int age)
 {
-    printf("Greetings tesa %s, I am %d years old!\n", name, age);
+    printf("Greetings tesa %s, I am %d years old, and Peti is a jerk!\n", name, age);
 }
 
